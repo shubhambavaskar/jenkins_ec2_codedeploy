@@ -1,10 +1,9 @@
 pipeline {
-    agent  { label "shubham" }
-
+    agent { label "shubham" }
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/shubhambavaskar/DevOps-CI-CD-project.git'
+                git branch: 'main', url: 'https://github.com/shubhambavaskar/DevOps-CI-CD-project.git'
             }
         }
 
