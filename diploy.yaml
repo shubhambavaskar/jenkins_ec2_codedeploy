@@ -1,0 +1,29 @@
+---
+- name: Deploy College Web App on EC2
+  hosts: webserver
+  become: yes
+
+  tasks:
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+        update_cache: yes
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Copy web app files to EC2
+      copy:
+        src: ./college-web-app/
+        dest: /opt/college-web-app/
+
+    - name: Build Docker image
+      command: docker build -t college-web-app /opt/college-web-app/
+
+    - name: Run Docker container
+      command: docker run -d -p 80:80 --name webapp college-web-app
+
