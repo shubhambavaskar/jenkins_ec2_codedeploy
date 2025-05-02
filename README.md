@@ -45,13 +45,13 @@ Automate the deployment of a college homepage web app using Docker, Ansible, Jen
 ---
 
 ## 📂 Project File Structure
-
+```bash
 college-web-app/
-├── index.html # Main website content
-├── style.css # Styles and design
-├── Dockerfile # Docker image definition
-├── deploy.yml # Ansible playbook for deployment
-└── .jenkinsfile # Jenkins pipeline configuration
+├── index.html        # Main website content
+├── style.css         # Styles and design
+├── Dockerfile        # Docker image definition
+├── deploy.yml        # Ansible playbook for deployment
+└── .jenkinsfile      # Jenkins pipeline configuration
 
 ## 🙌 Author
 
