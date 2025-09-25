@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   webapp:
-    build: ./college-web-app  # Path where your Dockerfile is located
+    build: .  # Path where your Dockerfile is located
     container_name: webapp
     ports:
       - "8080:80"
