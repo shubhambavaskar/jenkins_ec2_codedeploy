@@ -5,5 +5,5 @@ services:
     build: ./college-web-app  # Path where your Dockerfile is located
     container_name: webapp
     ports:
-      - "80:80"
+      - "8080:80"
     restart: always   # Ensures container restarts if it crashes
