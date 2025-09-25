@@ -1,33 +1,43 @@
 pipeline {
-    agent { label "shubham" }
+    agent { label 'shubham' }
+
     stages {
-        stage('Clone Repo') {
+        stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/shubhambavaskar/DevOps-CI-CD-project.git'
+                echo "Cloning code from Git"
+                git url: "https://github.com/shubhambavaskar/DevOps-CI-CD-project.git", branch: "main"
+                echo "Code cloning successful..."
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Build') {
             steps {
-                sh 'docker build -t college-web-app .'
+                echo "Building project"
+                sh 'docker build -t nginx:alpine .'
             }
         }
 
-        stage('Push to Docker Hub') {
+        stage('Push to DockerHub') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'dockerhub-creds', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
-                    sh 'echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin'
-                    sh 'docker tag college-web-app $DOCKER_USER/college-web-app:latest'
-                    sh 'docker push $DOCKER_USER/college-web-app:latest'
+                echo "Pushing image to DockerHub"
+                withCredentials([usernamePassword(
+                    credentialsId: 'DockerHubCred',  // <-- Correct ID
+                    usernameVariable: 'dockerHubUser', 
+                    passwordVariable: 'dockerHubPass')]) {
+                    sh '''
+                        echo $dockerHubPass | docker login -u $dockerHubUser --password-stdin
+                        docker image tag nginx:alpine $dockerHubUser/college-web-app:latest
+                        docker push $dockerHubUser/college-web-app:latest
+                    '''
                 }
             }
         }
 
-        stage('Deploy via Ansible') {
+        stage('Deploy') {
             steps {
-                sh 'ansible-playbook -i hosts deploy.yml'
+                echo "Deploying application"
+                sh 'docker-compose up -d --build'
             }
         }
     }
 }
-
