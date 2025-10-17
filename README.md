@@ -61,7 +61,5 @@ DevOps | AWS | Cloud Enthusiast
 
 📧 Email: shubhamba97@gmail.com
 
-<a href="https://github.com/shubhambavaskar" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Visit%20Profile-blue?style=for-the-badge&logo=github" alt="GitHub Profile"/>
-</a>
+[![Visit My GitHub](https://img.shields.io/badge/GitHub-Visit%20Profile-blue?style=for-the-badge&logo=github)](https://github.com/shubhambavaskar)
 
