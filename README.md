@@ -55,6 +55,6 @@ college-web-app/
 
 ## 🙌 Author
 
-**Shubham Bavaskar**  
-DevOps | AWS | Cloud Enthusiast  
-[GitHub](https://github.com/shubhambavaskar)
+**Shubham Bavaskar**
+DevOps | AWS | Cloud Enthusiast
+🔗 [GitHub Profile](https://github.com/shubhambavaskar)
