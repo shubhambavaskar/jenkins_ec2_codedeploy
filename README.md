@@ -48,10 +48,14 @@ college-web-app/
 └── .jenkinsfile      # Jenkins pipeline configuration
 🙌 Author
 
-👨‍💻 Shubham Bavaskar
-DevOps | AWS | Cloud Enthusiast
-📧 shubhamba97@gmail.com
+---
 
-🔗 GitHub Profile https://github.com/shubhambavaskar/jenkins_ec2_codedeploy
+## 🙌 Author
 
-🔗 LinkedIn Profile www.linkedin.com/in/shubham-bavaskar-933a75195
+**👨‍💻 Shubham Bavaskar**  
+*DevOps | AWS | Cloud Enthusiast*  
+
+🔗 **GitHub Profile:** [github.com/shubhambavaskar](https://github.com/shubhambavaskar)  
+🔗 **LinkedIn Profile:** [linkedin.com/in/shubham-bavaskar-933a75195](https://www.linkedin.com/in/shubham-bavaskar-933a75195)  
+📧 **Email:** [shubhamba97@gmail.com](mailto:shubhamba97@gmail.com)
+
