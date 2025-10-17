@@ -36,13 +36,12 @@ Automate the deployment of a college homepage web app using Docker, Jenkins, and
 **4️⃣ Setup Jenkins Job**  
 
 * Pulls code from GitHub repository  
-* Builds Docker image from project files  
-* Triggers Ansible playbook for server setup (if needed)  
-* Deploys the Docker containerized website to EC2  
+* Builds Docker image from project files   
+* Deploys the Docker containerized website to EC2 Using Docker-compose
 
 **5️⃣ Access Website**  
 
-* Visit `http://<EC2-IP>` to view the deployed college homepage  
+* Visit `http://18.204.12.34` to view the deployed college homepage  
 
 ---
 
