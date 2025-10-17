@@ -41,18 +41,23 @@ Automate the deployment of a college homepage web app using Docker, Jenkins, and
 ## 📂 Project File Structure
 ```bash
 college-web-app/
-├── index.html        # Main website content
-├── style.css         # Styles and design
-├── Dockerfile        # Docker image definition
-├── deploy.yml        # Ansible playbook for deployment
-└── .jenkinsfile      # Jenkins pipeline configuration
-🙌 Author
-
+├── index.html          # Main website content
+├── style.css           # Styles and design
+├── Dockerfile          # Docker image definition
+├── docker-compose.yml  # Defines multi-container setup
+├── deploy.yml          # Ansible playbook for deployment
+└── .jenkinsfile        # Jenkins pipeline configuration
+      
 ---
 
 
-## 🙌 Author
+🙌 Author
 
-**Shubham Bavaskar**
+👨‍💻 Shubham Bavaskar
 DevOps | AWS | Cloud Enthusiast
-🔗 [GitHub Profile](https://github.com/shubhambavaskar)
+
+🔗 GitHub Profile: github.com/shubhambavaskar
+
+🔗 LinkedIn Profile: linkedin.com/in/shubham-bavaskar-933a75195
+
+📧 Email: shubhamba97@gmail.com
