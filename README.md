@@ -50,16 +50,12 @@ shubhambavaskar/
 ---
 
 
-🙌 Author
+---
 
-👨‍💻 Shubham Bavaskar
-DevOps | AWS | Cloud Enthusiast
+## 🙌 Author
 
-🔗 GitHub Profile: github.com/shubhambavaskar
+**Shubham Bavaskar**  
+*DevOps | AWS | Cloud Enthusiast*  
 
-🔗 LinkedIn Profile: linkedin.com/in/shubham-bavaskar-933a75195
-
-📧 Email: shubhamba97@gmail.com
-
-[![Visit My GitHub](https://img.shields.io/badge/GitHub-Visit%20Profile-blue?style=for-the-badge&logo=github)](https://github.com/shubhambavaskar)
+🔗 [GitHub Profile](https://github.com/shubhambavaskar) | 🔗 [LinkedIn Profile](https://www.linkedin.com/in/shubham-bavaskar-933a75195) | 📧 [Email](mailto:shubhamba97@gmail.com)
 
