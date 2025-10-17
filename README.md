@@ -1,14 +1,13 @@
-# DevOps CI/CD Project: College Web App using Docker, Ansible, Jenkins & AWS
+# DevOps CI/CD Project: College Web App using Docker, Jenkins & AWS
 
 ## 📌 Project Objective
-Automate the deployment of a college homepage web app using Docker, Ansible, Jenkins, and AWS EC2.
+Automate the deployment of a college homepage web app using Docker, Jenkins, and AWS EC2.
 
 ---
 
 ## 🛠️ Tools Used
 - **Git & GitHub** – for source code management
 - **Jenkins** – for continuous integration and deployment
-- **Ansible** – to automate server configuration & Docker setup
 - **Docker** – to containerize the static website
 - **AWS EC2** – to host Jenkins and run the container
 - **Nginx** – as the web server
@@ -27,19 +26,14 @@ Automate the deployment of a college homepage web app using Docker, Ansible, Jen
 
 3. **Launch EC2 Instance**
    - Ubuntu instance with open ports: 22, 80
-   - Install Jenkins, Ansible, and Docker on EC2
+   - Install Jenkins, and Docker on EC2
 
-4. **Create Ansible Playbook**
-   - Installs Docker and Nginx
-   - Builds Docker image from project files
-   - Runs the Nginx container serving the website
-
-5. **Setup Jenkins Job**
+4. **Setup Jenkins Job**
    - Pulls code from GitHub repository
    - Triggers Ansible playbook for server setup and deployment
    - Deploys the Docker containerized website to EC2
 
-6. **Access Website**
+5. **Access Website**
    - Visit `http://<EC2-IP>` to view the deployed college homepage
 
 ---
