@@ -1,4 +1,4 @@
-# DevOps CI/CD Project: College Web App using Docker, Jenkins & AWS
+# DevOps CI/CD Project: CI/CD Pipeline Deployment using Jenkins and Docker 
 
 ## 📌 Project Objective
 Automate the deployment of a college homepage web app using Docker, Jenkins, and AWS EC2.
@@ -34,7 +34,7 @@ Automate the deployment of a college homepage web app using Docker, Jenkins, and
    - Deploys the Docker containerized website to EC2
 
 5. **Access Website**
-   - Visit `http://<EC2-IP>` to view the deployed college homepage
+   - Visit `http://` to view the deployed college homepage
 
 ---
 
@@ -46,9 +46,12 @@ college-web-app/
 ├── Dockerfile        # Docker image definition
 ├── deploy.yml        # Ansible playbook for deployment
 └── .jenkinsfile      # Jenkins pipeline configuration
+🙌 Author
 
-## 🙌 Author
-
-**Shubham Bavaskar**
+👨‍💻 Shubham Bavaskar
 DevOps | AWS | Cloud Enthusiast
-🔗 [GitHub Profile](https://github.com/shubhambavaskar)
+📧 shubhamba97@gmail.com
+
+🔗 GitHub Profile https://github.com/shubhambavaskar/jenkins_ec2_codedeploy
+
+🔗 LinkedIn Profile www.linkedin.com/in/shubham-bavaskar-933a75195
