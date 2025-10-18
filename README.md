@@ -67,5 +67,6 @@ shubhambavaskar/
 🔗 [GitHub Profile](https://github.com/shubhambavaskar) | 🔗 [LinkedIn Profile](https://www.linkedin.com/in/shubham-bavaskar-933a75195) | 📧 [Email](mailto:shubhamba97@gmail.com)
 
 
-<img width="1536" height="1024" alt="ChatGPT Image May 1, 2025, 02_36_31 PM" src="https://github.com/user-attachments/assets/9a87b385-f989-4876-9a37-38c53589050f" />
+![WhatsApp Image 2025-10-18 at 14 02 58_07de631d](https://github.com/user-attachments/assets/cc720040-1ff3-4761-9fe3-b498933b19e3)
+
 
