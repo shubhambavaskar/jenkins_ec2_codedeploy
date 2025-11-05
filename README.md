@@ -52,9 +52,6 @@ Automate the deployment of a college homepage web app using Docker, Jenkins, and
 -----
 
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
-![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
-![Python](https://img.shields.io/badge/Language-Python-yellow)
 ![Jenkins](https://img.shields.io/badge/CI/CD-Jenkins-red)
 ![AWS](https://img.shields.io/badge/Cloud-AWS-ff9900)
 ![Status](https://img.shields.io/badge/Build-Automated-success)
