@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: college_db
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppass
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+
+  web:
+    build: .
+    restart: always
+    depends_on:
+      - db
+    environment:
+      MYSQL_DATABASE: college_db
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppass
+      MYSQL_HOST: db
+      FLASK_SECRET: mysecret
+    ports:
+      - "5000:5000"
+
+volumes:
+  dbdata:
