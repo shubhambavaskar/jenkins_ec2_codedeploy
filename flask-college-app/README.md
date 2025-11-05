@@ -1,64 +1,131 @@
+# Flask College Management App -- DevOps CI/CD Project
 
-# DevOps CI/CD Project: CI/CD Pipeline Deployment using Jenkins and Docker
+📌 **Project Objective**\
+Build & deploy a **Flask + MySQL College Web App** using **Docker,
+Docker‑Compose, Jenkins (CI/CD), and AWS EC2**.
 
-📌 **Project Objective**  
-Automate the deployment of a college homepage web app using Docker, Jenkins, and AWS EC2.
+------------------------------------------------------------------------
 
----
+## 🛠️ Tech Stack
 
-🛠️ **Tools Used**  
+  Category          Tools
+  ----------------- -------------------------
+  Frontend          HTML, CSS
+  Backend           Python Flask
+  Database          MySQL
+  CI/CD             Jenkins
+  Container         Docker & Docker‑Compose
+  Cloud             AWS EC2
+  Version Control   Git & GitHub
 
-* Git & GitHub – for source code management  
-* Jenkins – for continuous integration and deployment  
-* Docker – to containerize the static website  
-* AWS EC2 – to host Jenkins and run the container  
-* Nginx – as the web server  
+------------------------------------------------------------------------
 
----
+## 🚀 Features
 
-🔧 **Project Workflow**  
+-   Student Registration (Name, Email, Course)
+-   MySQL DB storage
+-   View all registered students
+-   Containerized deployment
+-   CI/CD automated pipeline pushing to Docker Hub & deploying on EC2
 
-**1️⃣ Create Static Website Files**  
+------------------------------------------------------------------------
 
-* `index.html` – Contains basic website content (Welcome message)  
-* `style.css` – Styles and design for the homepage  
-* `Dockerfile` – Defines the Docker image and container setup using Nginx to serve the website  
+## 📂 Project Structure
 
-**2️⃣ Push Code to GitHub**  
+    flask-college-app/
+    ├── app.py
+    ├── requirements.txt
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── .env.example
+    ├── templates/
+    │   ├── base.html
+    │   ├── index.html
+    │   ├── register.html
+    │   └── students.html
+    └── static/
+        └── style.css
 
-* A GitHub repository stores the project code  
+------------------------------------------------------------------------
 
-**3️⃣ Launch EC2 Instance**  
+## ⚙️ Run App Locally
 
-* Ubuntu instance with open ports: 22 (SSH), 80 (HTTP)  
-* Install Jenkins and Docker on EC2  
-
-**4️⃣ Setup Jenkins Job**  
-
-* Pulls code from GitHub repository  
-* Builds Docker image from project files   
-* Deploys the Docker containerized website to EC2 Using Docker-compose
-
-**5️⃣ Access Website**  
-
-* Visit `http://18.204.12.34` to view the deployed college homepage  
-
----
-
-📂 **Project File Structure**  
-
-```
-shubhambavaskar/
-├── Dockerfile          # Docker image definition for the web app
-├── Jenkinsfile         # Jenkins pipeline configuration for CI/CD
-├── README.md           # Project documentation
-├── docker-compose.yml  # Defines container services and orchestration
-├── index.html          # Main website content
-└── style.css           # Styles and design for the web app
+``` bash
+pip install -r requirements.txt
+python app.py
 ```
 
----
+### ✅ Access App
 
+http://localhost:5000
+
+------------------------------------------------------------------------
+
+## 🐳 Docker & Compose Commands
+
+### Build & Run
+
+``` bash
+docker compose up --build
+```
+
+### Stop
+
+``` bash
+docker compose down
+```
+
+------------------------------------------------------------------------
+## 🐳 Docker Hub Upload Steps
+
+``` bash
+docker login
+docker build -t username/flask-college-app .
+docker push username/flask-college-app
+```
+
+------------------------------------------------------------------------
+
+## ☁️ AWS EC2 Deployment Guide
+
+### ✅ Steps
+
+1.  Launch Ubuntu EC2
+2.  Install Docker & Docker‑Compose
+3.  Clone project or pull image from Docker Hub
+4.  Run
+
+``` bash
+docker compose up -d
+```
+
+### Security Group Ports
+
+  Port   Purpose
+  ------ ------------------
+  22     SSH
+  5000   Flask App
+  3306   MySQL (optional)
+
+------------------------------------------------------------------------
+
+## 🖼️ Architecture Diagram
+
+    Developer → GitHub → Jenkins → Docker Hub → AWS EC2 → Flask App + MySQL
+
+------------------------------------------------------------------------
+
+## 🎤 Interview Explanation
+
+> "I created a Flask‑MySQL college web app and automated its deployment
+> using Docker, Docker Hub, and Jenkins.\
+> When I push code to GitHub, Jenkins pulls the code, builds a Docker
+> image, pushes it to Docker Hub, and automatically deploys the updated
+> container on AWS EC2 using SSH.\
+> This demonstrates CI/CD automation, containerization, and cloud
+> deployment skills."
+
+------------------------------------------------------------------------
 ## 🙌 Author
 
 **Shubham Bavaskar**  
@@ -69,4 +136,4 @@ shubhambavaskar/
 
 ![WhatsApp Image 2025-10-18 at 14 02 58_07de631d](https://github.com/user-attachments/assets/cc720040-1ff3-4761-9fe3-b498933b19e3)
 
-
+------------------------------------------------------------------------
