@@ -1,4 +1,4 @@
-# CI/CD Pipeline Deployment Student Portal Application using Jenkins & Docker 
+# CI/CD Pipeline Deployment Student Portal Application using Jenkins & Docker
 
 📌 **Project Objective**\
 Build & deploy a **Flask + MySQL College Web App** using **Docker,
@@ -76,6 +76,7 @@ docker compose down
 ```
 
 ------------------------------------------------------------------------
+
 ## 🐳 Docker Hub Upload Steps
 
 ``` bash
@@ -90,16 +91,16 @@ docker push username/flask-college-app
 
 ### ✅ Steps
 
-1.  Launch Ubuntu EC2
-2.  Install Docker & Docker‑Compose
-3.  Clone project or pull image from Docker Hub
+1.  Launch Ubuntu EC2\
+2.  Install Docker & Docker‑Compose\
+3.  Clone project or pull image from Docker Hub\
 4.  Run
 
 ``` bash
 docker compose up -d
 ```
 
-### Security Group Ports
+### 🔐 Security Group Ports
 
   Port   Purpose
   ------ ------------------
@@ -108,33 +109,39 @@ docker compose up -d
   3306   MySQL (optional)
 
 ------------------------------------------------------------------------
-## Visual Workflow
 
-Developer
-    |
-    | Push code
-    ↓
-GitHub ---- Webhook ----> Jenkins CI/CD
-                          |
-                          | Build & Test
-                          | Docker Build
-                          | Push Image
-                          ↓
-                    Docker Hub Registry
-                          |
-                          | Pull latest image
-                          ↓
-                     AWS EC2 Server
-                          |
-                     Docker-Compose Up
-                          ↓
-                   Flask + MySQL App Live
+## 🔁 Visual Workflow
 
--------------------------------------------------------------------------
+    Developer
+        |
+        | Push code
+        ↓
+    GitHub ---- Webhook ----> Jenkins CI/CD
+                              |
+                              | Build & Test
+                              | Docker Build
+                              | Push Image
+                              ↓
+                        Docker Hub Registry
+                              |
+                              | Pull latest image
+                              ↓
+                         AWS EC2 Server
+                              |
+                         Docker-Compose Up
+                              ↓
+                       Flask + MySQL App Live
+
+------------------------------------------------------------------------
 
 ## 🖼️ Architecture Diagram
-![WhatsApp Image 2025-11-05 at 18 06 46_8c6d6085](https://github.com/user-attachments/assets/89ff73e7-d47c-4f00-ac6d-54141f735c0a)
+
+![Architecture](https://github.com/user-attachments/assets/89ff73e7-d47c-4f00-ac6d-54141f735c0a)
+
 ------------------------------------------------------------------------
+
+## 🏷️ Tech Badges
+
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
@@ -143,6 +150,7 @@ GitHub ---- Webhook ----> Jenkins CI/CD
 ![AWS](https://img.shields.io/badge/Cloud-AWS-ff9900)
 ![Status](https://img.shields.io/badge/Build-Automated-success)
 
+------------------------------------------------------------------------
 
 ## 🎤 Interview Explanation
 
@@ -155,14 +163,14 @@ GitHub ---- Webhook ----> Jenkins CI/CD
 > deployment skills."
 
 ------------------------------------------------------------------------
+
 ## 🙌 Author
 
-**Shubham Bavaskar**  
-*DevOps | AWS | Cloud Enthusiast*  
+**Shubham Bavaskar**\
+*DevOps \| AWS \| Cloud Enthusiast*
 
-🔗 [GitHub Profile](https://github.com/shubhambavaskar) | 🔗 [LinkedIn Profile](https://www.linkedin.com/in/shubham-bavaskar-933a75195) | 📧 [Email](mailto:shubhamba97@gmail.com)
-
-
-
+🔗 [GitHub Profile](https://github.com/shubhambavaskar) \| 🔗 [LinkedIn
+Profile](https://www.linkedin.com/in/shubham-bavaskar-933a75195) \| 📧
+[Email](mailto:shubhamba97@gmail.com)
 
 ------------------------------------------------------------------------
