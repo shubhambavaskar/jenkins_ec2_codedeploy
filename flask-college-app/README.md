@@ -134,6 +134,7 @@ docker compose up -d
 🔗 [GitHub Profile](https://github.com/shubhambavaskar) | 🔗 [LinkedIn Profile](https://www.linkedin.com/in/shubham-bavaskar-933a75195) | 📧 [Email](mailto:shubhamba97@gmail.com)
 
 
-![WhatsApp Image 2025-10-18 at 14 02 58_07de631d](https://github.com/user-attachments/assets/cc720040-1ff3-4761-9fe3-b498933b19e3)
+![WhatsApp Image 2025-11-05 at 18 06 46_8c6d6085](https://github.com/user-attachments/assets/89ff73e7-d47c-4f00-ac6d-54141f735c0a)
+
 
 ------------------------------------------------------------------------
