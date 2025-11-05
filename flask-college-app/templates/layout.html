@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <title>ApnaCollege</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <div class="logo">ApnaCollege</div>
+    <a href="/">Home</a> | 
+    <a href="/register">Register</a> |
+    <a href="/students">Students</a>
+  </div>
+</header>
+
+<main>
+  {% with msgs = get_flashed_messages(with_categories=true) %}
+    {% for cat, msg in msgs %}
+      <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+  {% endwith %}
+  {% block content %}{% endblock %}
+</main>
+
+<footer>©2025 My College</footer>
+</body>
+</html>
