@@ -112,6 +112,14 @@ docker compose up -d
 ## 🖼️ Architecture Diagram
 ![WhatsApp Image 2025-11-05 at 18 06 46_8c6d6085](https://github.com/user-attachments/assets/89ff73e7-d47c-4f00-ac6d-54141f735c0a)
 ------------------------------------------------------------------------
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![Python](https://img.shields.io/badge/Language-Python-yellow)
+![Jenkins](https://img.shields.io/badge/CI/CD-Jenkins-red)
+![AWS](https://img.shields.io/badge/Cloud-AWS-ff9900)
+![Status](https://img.shields.io/badge/Build-Automated-success)
+
 
 ## 🎤 Interview Explanation
 
