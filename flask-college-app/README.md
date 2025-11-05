@@ -108,6 +108,29 @@ docker compose up -d
   3306   MySQL (optional)
 
 ------------------------------------------------------------------------
+## Visual Workflow
+
+Developer
+    |
+    | Push code
+    ↓
+GitHub ---- Webhook ----> Jenkins CI/CD
+                          |
+                          | Build & Test
+                          | Docker Build
+                          | Push Image
+                          ↓
+                    Docker Hub Registry
+                          |
+                          | Pull latest image
+                          ↓
+                     AWS EC2 Server
+                          |
+                     Docker-Compose Up
+                          ↓
+                   Flask + MySQL App Live
+
+-------------------------------------------------------------------------
 
 ## 🖼️ Architecture Diagram
 ![WhatsApp Image 2025-11-05 at 18 06 46_8c6d6085](https://github.com/user-attachments/assets/89ff73e7-d47c-4f00-ac6d-54141f735c0a)
