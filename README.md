@@ -45,6 +45,20 @@ Automate the deployment of a college homepage web app using Docker, Jenkins, and
 
 ---
 
+## 🖼️ Architecture Diagram
+![WhatsApp Image 2025-11-05 at 18 06 46_8c6d6085](https://github.com/user-attachments/assets/89ff73e7-d47c-4f00-ac6d-54141f735c0a)
+
+
+-----
+
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![Python](https://img.shields.io/badge/Language-Python-yellow)
+![Jenkins](https://img.shields.io/badge/CI/CD-Jenkins-red)
+![AWS](https://img.shields.io/badge/Cloud-AWS-ff9900)
+![Status](https://img.shields.io/badge/Build-Automated-success)
+
 📂 **Project File Structure**  
 
 ```
@@ -67,13 +81,6 @@ shubhambavaskar/
 🔗 [GitHub Profile](https://github.com/shubhambavaskar) | 🔗 [LinkedIn Profile](https://www.linkedin.com/in/shubham-bavaskar-933a75195) | 📧 [Email](mailto:shubhamba97@gmail.com)
 
 
-![WhatsApp Image 2025-10-18 at 14 02 58_07de631d](https://github.com/user-attachments/assets/cc720040-1ff3-4761-9fe3-b498933b19e3)
 
 
-![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
-![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
-![Python](https://img.shields.io/badge/Language-Python-yellow)
-![Jenkins](https://img.shields.io/badge/CI/CD-Jenkins-red)
-![AWS](https://img.shields.io/badge/Cloud-AWS-ff9900)
-![Status](https://img.shields.io/badge/Build-Automated-success)
+
