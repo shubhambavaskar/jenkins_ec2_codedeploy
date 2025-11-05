@@ -1,4 +1,4 @@
-# Flask College Management App -- DevOps CI/CD Project
+# CI/CD Pipeline Deployment Student Portal Application using Jenkins & Docker 
 
 📌 **Project Objective**\
 Build & deploy a **Flask + MySQL College Web App** using **Docker,
